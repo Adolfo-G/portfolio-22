@@ -1,0 +1,86 @@
+:root{
+    --grey:#c5c1c0;
+    --black: #0a1612;
+    --darkBlue:#1a2930;
+    --yellow:#f7ce3e;
+  }
+body{
+    background-color: var(--black);
+    color: white;
+}
+.preview-img{
+    float: left;
+    width:  100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contact-text{
+    color: black;
+    font-size: unset;
+}
+.contact-text:hover{
+    color: blue;
+}
+
+.my-name{
+    font-size: 200%;
+}
+
+h4{
+    font-weight:750;
+    font-size:200%;
+}
+
+.footer{
+    background-color:var(--yellow);
+    color: black;
+}
+
+.nav{
+    background-color: var(--darkBlue);
+}
+.card{
+    background-color: var(--grey);
+}
+.card:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
+.top-bar ul{
+    background-color: unset;
+}
+
+.profilePic{
+    border-radius: 100px;
+}
+.thumbnail{
+    border: unset;
+}
+a{
+    font-size: larger;
+    color:var(--yellow);
+}
+a:hover{
+    color:var(--yellow);
+    opacity: 80%;
+}
+p{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+tr td{
+    background-color: var(--yellow);
+    font-weight: bold;
+}
+tr td a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table{
+   border-collapse: unset;
+   margin-left: auto;
+   margin-right: auto;
+}

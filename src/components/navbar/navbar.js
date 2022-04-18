@@ -12,7 +12,6 @@ function Navbar({currentPage, handlePageChange}) {
             </div>
             <div className="top-bar-right nav">
                 <ul className="menu nav">
-                    <li className="nav"><a href="assets/docs/resume.pdf" download="Resume">Download Resume</a></li>
                     <li className="nav">
                         <a
                             onClick={() => handlePageChange('About')}
@@ -37,6 +36,7 @@ function Navbar({currentPage, handlePageChange}) {
                         >Contact
                         </a>
                     </li>
+                    <li className="nav"><a href="assets/docs/resume.pdf" download="Resume">Download Resume</a></li>
                 </ul>
             </div>
         </div>
