@@ -4,7 +4,7 @@ import React from 'react';
 
 function Navbar({currentPage, handlePageChange}) {
     return (
-        <div className="top-bar nav">
+        <header className="top-bar nav">
             <div className="top-bar-left nav">
                 <ul className="menu nav">
                     <li className="menu-text my-name nav">Adolfo Gonzalez</li>
@@ -39,7 +39,7 @@ function Navbar({currentPage, handlePageChange}) {
                     <li className="nav"><a href="assets/docs/resume.pdf" download="Resume">Download Resume</a></li>
                 </ul>
             </div>
-        </div>
+        </header>
     );
 }
 

@@ -3,6 +3,7 @@ import About from './components/about/about';
 import Work from './components/works/works';
 import Contact from './components/contacts/contacts';
 import Navbar from './components/navbar/navbar';
+import Footer from './components/footer/footer'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -22,9 +23,14 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='container'>
+      <div className='nav-and-body'>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div className='body'>
+        {renderPage()}
+      </div>
+      </div>
+      <Footer />
     </div>
   );
 }
