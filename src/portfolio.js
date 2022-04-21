@@ -4,6 +4,7 @@ import Work from './components/works/works';
 import Contact from './components/contacts/contacts';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer'
+import Resume from './components/resume/resume';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -17,6 +18,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === "Contact"){
       return <Contact />;
+    }
+    if (currentPage === "Resume"){
+      return <Resume />;
     }
   };
 

@@ -237,6 +237,10 @@ table {
     padding: 5px 20px 5px 20px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+}
+.form-btn:hover{
+    background-color: var(--yellow);
 }
 
 .form-btn:hover {
@@ -269,4 +273,7 @@ footer{
 .card-icon:hover
 {
     color: var(--yellow);
+}
+.resume-bullets{
+    margin-left: 10%;
 }

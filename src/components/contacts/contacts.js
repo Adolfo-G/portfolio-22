@@ -38,8 +38,8 @@ function Contact() {
 
   return (
     <div>
-      <h1>Contact Me</h1>
       <div className='form-container'>
+      <h2>Contact Me</h2>
       <form className="form">
       <input
           value={userName}

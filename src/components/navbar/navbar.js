@@ -36,7 +36,14 @@ function Navbar({currentPage, handlePageChange}) {
                         >Contact
                         </a>
                     </li>
-                    <li className="nav"><a href="assets/docs/resume.pdf" download="Resume">Download Resume</a></li>
+                    <li className="nav">
+                        <a
+                            onClick={() => handlePageChange('Resume')}
+                            href="#Resume"
+                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        >Resume
+                        </a>
+                    </li>
                 </ul>
             </div>
         </header>
