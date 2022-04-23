@@ -24,5 +24,5 @@
   -For any questions or concerns please reach out to me at
   
   github:  https://github.com/Adolfo-g
-  email:  agonzal5545@gmail.com
+  email:  adolfog5545@gmail.com
     
