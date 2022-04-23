@@ -14,7 +14,7 @@
   * [Questions](#questions)
 
   ## Usage
-  The deployed page can be viewed here: 
+  The deployed page can be viewed here: https://adolfo-g.github.io/portfolio-22/
  
   ## License
  
