@@ -5,6 +5,7 @@ import Contact from './components/contacts/contacts';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer'
 import Resume from './components/resume/resume';
+import Header from './components/header/header';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -29,7 +30,7 @@ export default function PortfolioContainer() {
   return (
     <div className='container'>
       <div className='nav-and-body'>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div className='body'>
         {renderPage()}
       </div>

@@ -1,5 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
+import Project from '../project/project';
 
 const projects = [
     {
@@ -46,84 +47,10 @@ function Works() {
             <div className="grid-container">
             <h4 id="works">Works</h4>
                 <div className="grid-x grid-margin-x small-up-1 medium-up-2">
-                    <div className="cell">
-                        <div className="card">
-                            <div className="image-effect">
-                                <img src={projects[0].image} />
-                            </div>
-                            <div className='text-effect'>
-                                <div className="text">
-                                    <a href={projects[0].deployedAt}><h4 className='card-title'>{projects[0].title}</h4></a>
-                                    <div><a href={projects[0].repo}><FontAwesomeIcon className='card-icon' icon="fab fa-github" size='3x' /></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cell">
-                        <div className="card">
-                            <div className="image-effect">
-                            <img src={projects[1].image} />
-                            </div>
-                            <div className='text-effect'>
-                                <div className="text">
-                                    <a href={projects[1].deployedAt}><h4 className='card-title'>{projects[1].title}</h4></a>
-                                    <div><a href={projects[1].repo}><FontAwesomeIcon className='card-icon' icon="fab fa-github" size='3x' /></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cell">
-                        <div className="card">
-                            <div className="image-effect">
-                            <img src={projects[2].image} />
-                            </div>
-                            <div className='text-effect'>
-                                <div className="text">
-                                    <a href={projects[2].deployedAt}><h4 className='card-title'>{projects[2].title}</h4></a>
-                                    <div><a href={projects[2].repo}><FontAwesomeIcon className='card-icon' icon="fab fa-github" size='3x' /></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cell">
-                        <div className="card">
-                            <div className="image-effect">
-                            <img src={projects[3].image} />
-                            </div>
-                            <div className='text-effect'>
-                                <div className="text">
-                                    <a href={projects[3].deployedAt}><h4 className='card-title'>{projects[3].title}</h4></a>
-                                    <div><a href={projects[3].repo}><FontAwesomeIcon className='card-icon' icon="fab fa-github" size='3x' /></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cell">
-                        <div className="card">
-                            <div className="image-effect">
-                            <img src={projects[4].image} />
-                            </div>
-                            <div className='text-effect'>
-                                <div className="text">
-                                    <a href={projects[4].deployedAt}><h4 className='card-title'>{projects[4].title}</h4></a>
-                                    <div><a href={projects[4].repo}><FontAwesomeIcon className='card-icon' icon="fab fa-github" size='3x' /></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="cell">
-                        <div className="card">
-                            <div className="image-effect">
-                            <img src={projects[5].image} />
-                            </div>
-                            <div className='text-effect'>
-                                <div className="text">
-                                    <a href={projects[5].deployedAt}><h4 className='card-title'>{projects[5].title}</h4></a>
-                                    <div><a href={projects[5].repo}><FontAwesomeIcon className='card-icon' icon="fab fa-github" size='3x' /></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {projects.map(project=>
+                        <Project project={project}/>
+                        )}
+                 
                 </div>
             </div>
         </div>
