@@ -1,5 +1,4 @@
 :root {
-    --grey: #c5c1c0;
     --black: #0a1612;
     --darkBlue: #1a2930;
     --yellow: #f7ce3e;
@@ -24,7 +23,6 @@ body {
 }
 
 .card {
-    background-color: var(--grey);
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
@@ -150,7 +148,7 @@ body {
 }
 
 .card:hover {
-    opacity: 90%;
+    opacity: .9;
     cursor: pointer;
 }
 
@@ -202,7 +200,7 @@ a {
 
 a:hover {
     color: var(--yellow);
-    opacity: 80%;
+    opacity: .8;
 }
 
 p {
