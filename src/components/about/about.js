@@ -5,7 +5,7 @@ function About() {
         <div className="media-object">
         <div className="media-object-section">
           <div className="thumbnail">
-            <img className="profilePic" src="assets/images/icon-placeholder.png"/>
+            <img className="profilePic" src="assets/images/profilePic.jpg"/>
           </div>
         </div>
         <div className="media-object-section">
