@@ -40,11 +40,11 @@ const projects = [
         description:"This application is a blog based page which allows for account creation and posting. Posts can be read and commented on by other users. This site was made using Bootstrap, Express.js, and sequelize.",
     },
     {
-        title: "Accord",
-        deployedAt: "https://enigmatic-reef-68574.herokuapp.com/",
-        repo: "https://github.com/Adolfo-G/Accord",
-        image:"assets/images/accord.png",
-        description:"This is a MERN stack application which serves as a blog for users to sign-up and post about thing's they are interested in. Users can also add to the discussion through comments on posts.",
+        title: "Home Bazaar",
+        deployedAt: "https://home-bazaar.herokuapp.com/",
+        repo: "https://github.com/Adolfo-G/Home-Bazaar-eCommerce",
+        image:"assets/images/HB-Homepage.png",
+        description:"This project uses a MERN stack approach to building a eCommerce web site. This project was made with Apollo/GraphQL.",
     },
 ]
 
