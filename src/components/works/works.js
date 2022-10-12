@@ -37,7 +37,7 @@ const projects = [
         deployedAt: "https://my-blog-1029.herokuapp.com/",
         repo: "https://github.com/Adolfo-G/my-blog",
         image:"assets/images/blog.jpeg",
-        description:"This application is a blog based page which allows for account creation and posting. Posts can be read and commented on by other users. This site was made using Bootstrap, Express.js, and sequelize.",
+        description:"This application is a blog based page which allows for account creation and posting. Posts can be read and commented on by other users. This site was made using Bootstrap, Express.js, and MySQL / sequelize.",
     },
     {
         title: "Home Bazaar",
