@@ -5,7 +5,7 @@ function Resume() {
     return (
         <div>
             <div className='resume-bullets'>
-            <p>Download My <a href="assets/docs/resume.pdf" download="Resume">Resume</a></p>
+            
                 <h4>Front-End Proficiencies</h4>
                 <ul>
                     <li>HTML</li>
