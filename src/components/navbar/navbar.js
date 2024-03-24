@@ -23,14 +23,15 @@ function Navbar({currentPage, handlePageChange}) {
                         >Works
                         </a>
                     </li>
-                    <li className="nav">
+                    {/* <li className="nav">
                         <a
                             onClick={() => handlePageChange('Contact')}
                             href="#Contact"
                             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                         >Contact
                         </a>
-                    </li>
+                        not working
+                    </li> */}
                     <li className="nav">
                         <a
                             onClick={() => handlePageChange('Resume')}
